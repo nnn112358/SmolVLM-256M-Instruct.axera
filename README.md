@@ -45,7 +45,13 @@ export LD_LIBRARY_PATH={your path to npu_python_llm}/engine_so/:$LD_LIBRARY_PATH
 ```
 python3 infer_axmodel.py
 ```  
-
+**输入**
+图片：
+![demo.jpg](assets/demo.jpg)
+文本：
+```
+Can you describe this image?
+```
 **输出**  
 ```
 The image depicts a large, historic statue of Liberty, located in New York City. The statue is a prominent landmark in the city and is known for its iconic presence and historical significance. The statue is located on Liberty Island, which is a part of the Empire State Building complex. The statue is made of bronze and is mounted on a pedestal. The pedestal is rectangular and has a weathered look, suggesting it has been in use for a long time. The statue is surrounded by a large, open area, which is likely a plaza or a plaza park.
@@ -71,6 +77,7 @@ In summary, the image depicts the Statue of Liberty in New York City, surrounded
 | Prefill |  512ms    |
 | Decode  |  11.6 token/s |
 
+实际模型耗时没这么大，python 代码性能不太好，用C++的话会更快。
 
 ## 技术讨论
 
