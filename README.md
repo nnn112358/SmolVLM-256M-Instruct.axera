@@ -1,7 +1,7 @@
 # SmolVLM-256M-Instruct.axera
 SmolVLM-256M-Instruct DEMO on Axera
 
-- 预编译模型下载[models](https://github.com/AXERA-TECH/SmolVLM-256M-Instruct.axera/releases/download/v1.0.0/models.tar.gz)，如需自行转换请参考[模型转换](/model_convert/README.md)
+- 预编译模型下载[models](https://github.com/techshoww/SmolVLM-256M-Instruct.axera/releases/download/v1.0.0/models.tar.gz)，如需自行转换请参考[模型转换](/model_convert/README.md)
 
 ## 支持平台
 

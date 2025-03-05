@@ -51,7 +51,7 @@ python test_onnx.py ../SmolVLM-256M-Instruct/
 - 使用 `Pulsar2 build` 命令集进行模型转换（PTQ 量化、编译），更详细的使用说明请参考 [AXera Pulsar2 工具链指导手册](https://pulsar2-docs.readthedocs.io/zh-cn/latest/index.html)
 
 1). 量化数据集  
-下载现有数据集[imagenet-calib.tar](https://github.com/AXERA-TECH/SmolVLM-256M-Instruct.axera/releases/download/v1.0.0/imagenet-calib.tar) 或者自己tar打包图片数据。
+下载现有数据集[imagenet-calib.tar](https://github.com/techshoww/SmolVLM-256M-Instruct.axera/releases/download/v1.0.0/imagenet-calib.tar) 或者自己tar打包图片数据。
 ```
 tar  -cvf calib.tar {your images}
 ```
