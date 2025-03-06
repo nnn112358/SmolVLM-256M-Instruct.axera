@@ -78,7 +78,7 @@ In summary, the image depicts the Statue of Liberty in New York City, surrounded
 | Prefill |  512ms    |
 | Decode  |  11.6 token/s |
 
-实际模型耗时没这么大，python 代码性能不太好，用C++的话会更快。
+实际模型耗时没这么大，python 代码性能不太好，用 [C++ code](https://github.com/techshoww/ax-llm)的话会更快。
 
 ## 技术讨论
 
