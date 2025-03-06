@@ -124,14 +124,13 @@ if __name__ == "__main__":
     pixel_values = cv2.imread(image_path)
     pixel_values = cv2.cvtColor(pixel_values, cv2.COLOR_BGR2RGB)
     pixel_values = cv2.resize(pixel_values, (512, 512))
-    pixel_values = pixel_values.transpose(2, 0, 1)
 
     pixel_values = pixel_values[None, :, :, :].astype(np.uint8)
     print("preprocess image done!")
 
     # extract img feature by vit
     vit_session = InferenceSession.load_from_model(
-        f"{ckpt_dir}/SmolVLM-256M-Instruct_vision.axmodel"
+        f"{ckpt_dir}/SmolVLM-256M-Instruct_vision_nhwc.axmodel"
     )
 
     t0 = time.time()

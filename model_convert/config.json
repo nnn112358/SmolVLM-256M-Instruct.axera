@@ -31,8 +31,8 @@
     {
       "tensor_name": "pixel_values",
       "tensor_format": "BGR",
-      "src_dtype": "U8"
-      
+      "src_dtype": "U8",
+      "src_layout": "NHWC"
     }
   ],
   "compiler": {

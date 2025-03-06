@@ -9,7 +9,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 checkpoint_dir = sys.argv[1] if len(sys.argv) >= 2 else "../SmolVLM-256M-Instruct"
 # Load images
-image = load_image("Statue-of-Liberty-Island-New-York-Bay.jpg")
+image = load_image("../assets/demo.jpg")
 
 # Initialize processor and model
 processor = AutoProcessor.from_pretrained(checkpoint_dir)
