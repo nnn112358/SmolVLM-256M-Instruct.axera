@@ -2,7 +2,12 @@
 SmolVLM-256M-Instruct DEMO on Axera
 
 - 预编译模型下载[models](https://github.com/techshoww/SmolVLM-256M-Instruct.axera/releases/download/v1.0.0/models.tar.gz)，如需自行转换请参考[模型转换](/model_convert/README.md)
-- cpp demo https://github.com/techshoww/ax-llm
+- [cpp demo]((./cpp))
+
+递归clone本项目
+```
+git clone --recursive https://github.com/techshoww/ax-llm.git
+```
 
 ## 支持平台
 
@@ -78,7 +83,7 @@ In summary, the image depicts the Statue of Liberty in New York City, surrounded
 | Prefill |  512ms    |
 | Decode  |  11.6 token/s |
 
-实际模型耗时没这么大，python 代码性能不太好，用 [C++ code](https://github.com/techshoww/ax-llm)的话会更快。
+实际模型耗时没这么大，python 代码性能不太好，用 [C++ code](./cpp)的话会更快。
 
 ## 技术讨论
 
